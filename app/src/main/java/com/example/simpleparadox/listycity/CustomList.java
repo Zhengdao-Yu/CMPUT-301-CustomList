@@ -62,4 +62,10 @@ public class CustomList extends ArrayAdapter<City> {
      public boolean hasCity(City city){
          return cities.contains(city);
      }
+
+     public int countCity(){
+        return -1;
+     }
+
+
 }
